@@ -1,0 +1,22 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F6F6EF;
+}
+.nav{
+    display: flex;
+    background-color: #FF6600;
+    color: #fff;
+    padding: 2rem;
+    .logo{
+        font-weight: bold;
+    }
+    a{
+        margin-right: 1rem;
+        transition: .2s ease-in-out;
+        &:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}

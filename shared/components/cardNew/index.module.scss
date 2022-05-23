@@ -1,0 +1,22 @@
+.news{
+    .title{
+        font-weight: bold;
+        span{
+            color: rgb(114, 114, 114);
+            font-weight: normal;
+            font-size: 0.8rem;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    h5{
+        font-weight: normal;
+        margin: 0;
+        .comments{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
